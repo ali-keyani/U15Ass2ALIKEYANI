@@ -4,7 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slovak Community South Manchester</title>
-    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: #0052B4; /* Blue */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            animation: fadeIn 2s;
+        }
+
+        .logo {
+            width: 50px;
+            height: auto;
+            background-color: #f0f0f0; /* Light background */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav {
+            background: #BF0A30; /* Red */
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            background: #00205B; /* Dark blue */
+            transform: scale(1.1);
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+            background: #fff;
+            animation: fadeIn 2s;
+        }
+
+        footer {
+            background: #00205B; /* Dark blue */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .donate-box, .social-media {
+            margin: 20px 0;
+        }
+
+        .donate-box input {
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .donate-box button {
+            padding: 10px 20px;
+            background: #BF0A30; /* Red */
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .donate-box button:hover {
+            background: #00205B; /* Dark blue */
+            transform: scale(1.1);
+        }
+
+        .social-media ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-media li {
+            margin: 0 10px;
+        }
+
+        .social-media a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #BF0A30; /* Red */
+            transform: scale(1.2);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -26,7 +137,7 @@
     <main>
         <h2>About Us</h2>
         <p>We are a dedicated team of Volunteers who are committed to unite and empower the Slovak community in South Manchester. We provide education to everyone who wishes to join the Slovak community and our goal is to actively keep cultural traditions alive through various workshops and events.</p>
-
+        <p>In addition to our cultural programs, we also offer support services for new immigrants, helping them to integrate smoothly into the community. Our activities include language classes, social gatherings, and networking opportunities to ensure that everyone feels welcomed and valued.</p>
     </main>
 
     <footer>
@@ -51,99 +162,3 @@
     </footer>
 </body>
 </html>
-
-<style>
-       * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    background: #0052B4 /* Blue */
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.logo {
-    width: 50px;
-    height: auto;
-}
-
-nav {
-    background: #BF0A30; /* Red */
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    transition: background 0.3s;
-}
-
-nav a:hover {
-    background: #00205B; /* Dark blue */
-}
-
-main {
-    padding: 20px;
-    text-align: center;
-    background: #fff;
-}
-
-footer {
-    background: #00205B; /* Dark blue */
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.donate-box, .social-media {
-    margin: 20px 0;
-}
-
-.donate-box input {
-    padding: 10px;
-    margin: 10px 0;
-}
-
-.donate-box button {
-    padding: 10px 20px;
-    background: #BF0A30; /* Red */
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.donate-box button:hover {
-    background: #00205B; /* Dark blue */
-}
-
-.social-media ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.social-media li {
-    margin: 0 10px;
-}
-
-.social-media a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    transition: color 0.3s;
-}
-
-.social-media a:hover {
-    color: #BF0A30; /* Red */
-}
-    </style>
