@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Membership Sign-Up – Slovenské Vzdelávacie Centrum</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="logo">SVC – South Manchester</div>
+    <nav id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="membership.html" class="active">Membership</a>
+      <a href="dates-fees.html">Dates & Fees</a>
+      <a href="games.html">Games</a>
+      <a href="events.html">Events</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="burger" id="burger">&#9776;</div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Become a Member</h1>
+    <p>Join our community and start your Slovak language and culture journey today!</p>
+  </section>
+
+  <!-- MEMBERSHIP FORM -->
+  <section class="intro">
+    <h2>Membership Sign-Up Form</h2>
+    <form id="membershipForm" class="membership-form">
+      <label for="name">Parent/Guardian Full Name *</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address *</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone Number *</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="child">Child’s Name *</label>
+      <input type="text" id="child" name="child" required />
+
+      <label for="age">Child’s Age *</label>
+      <input type="number" id="age" name="age" min="1" required />
+
+      <label for="session">Preferred Session *</label>
+      <select id="session" name="session" required>
+        <option value="">-- Select --</option>
+        <option value="am">Morning (10:00–12:00)</option>
+        <option value="pm">Afternoon (14:00–16:00)</option>
+      </select>
+
+      <label for="message">Any additional notes?</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit" class="btn red">Submit Registration</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Contact: <a href="mailto:svcmanchester@yahoo.com">svcmanchester@yahoo.com</a></p>
+    <div class="socials">
+      <a href="#">Facebook</a> | <a href="#">Instagram</a>
+    </div>
+    <p>&copy; 2025 Slovenské Vzdelávacie Centrum – South Manchester</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
